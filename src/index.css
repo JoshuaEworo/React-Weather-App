@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hr-0{
+  border: 1px solid black;
+}
+
+.SplashScreen-0{
+/* background-color: rgba(255, 255, 255, 0.6); */
+}
+
+.Weather-Section-0{
+  width: 380px;
+  height: 527px;
+  background-color: rgba(181, 181, 181, 0.6);
+}
+
+.main-container{
+  /* background-image: url('https://cdn.wallpapersafari.com/62/73/m4aowc.jpg'); */
+  background-image: url('https://media.istockphoto.com/photos/new-moon-picture-id1238421461?k=20&m=1238421461&s=612x612&w=0&h=sshdu0Nn9dFybotMNe8b9gPOc0zL8wngmqz79uR_ABo=');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(120px);
+  /* position: fixed; */
+}
+
+::placeholder{
+  color: rgb(43, 43, 43);
+}
